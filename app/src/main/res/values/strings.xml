@@ -1,6 +1,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <string name="app_name">Twitter Login</string>
 
-    <string android:name="com.twitter.sdk.android.CONSUMER_KEY">XXXXXXXXXXX</string>
-    <string android:name="com.twitter.sdk.android.CONSUMER_SECRET">XXXXXXXXXXX</string>
+<!--    <string name="com.twitter.sdk.android.CONSUMER_KEY">QofiFEEDdUVPtAmpTTc0AyAw1</string>-->
+<!--    <string name="com.twitter.sdk.android.CONSUMER_SECRET">q6fKdh2wZlVaSYrXBwRCnD8MJpom6ZOt7r67otfsafW7EVZqx8</string>-->
+
 </resources>
