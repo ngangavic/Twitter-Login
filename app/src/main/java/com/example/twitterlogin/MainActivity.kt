@@ -17,12 +17,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val config = TwitterConfig.Builder(this)
-            .logger(DefaultLogger(Log.DEBUG))
-            .twitterAuthConfig(TwitterAuthConfig("", ""))
-            .debug(true)
-            .build()
-        Twitter.initialize(config)
+//        val config = TwitterConfig.Builder(this)
+//            .logger(DefaultLogger(Log.DEBUG))
+//            .twitterAuthConfig(TwitterAuthConfig("", ""))
+//            .debug(true)
+//            .build()
+        Twitter.initialize(this)
         setContentView(R.layout.activity_main)
 
         btnLogin=findViewById(R.id.login_button)
